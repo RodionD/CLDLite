@@ -1,6 +1,4 @@
-# Calculate format=world name=world ini(overlay-calculate.world)<#-cut()-#
-
-#-ini(overlay-calculate.world,#-cut()-#)-#
+Calculate update.ac_update_sync==on path=/var/lib/portage format=world
 
 !kde-apps/kmail
 !net-irc/konversation
