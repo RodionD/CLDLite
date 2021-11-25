@@ -1,0 +1,1 @@
+# Calculate append=skip mergepkg(obmenu-generator)!=&&ini(update.obmenu-generator)!=off&&ini(ver.obmenu-generator)==&&pkg(x11-misc/obmenu-generator)>=0.53

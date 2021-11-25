@@ -1,0 +1,1 @@
+# Calculate mergepkg()>=3.6&&ini(update.openbox)!=off&&ini(cldo.openbox)==&&exists(~/.config/openbox/menu.xml)== append=skip

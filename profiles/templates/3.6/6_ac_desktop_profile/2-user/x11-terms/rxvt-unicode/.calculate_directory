@@ -1,0 +1,1 @@
+# Calculate append=skip mergepkg(rxvt-unicode)!=&&ini(update.rxvt-unicode)!=off&&ini(ver.rxvt-unicode)==&&pkg(x11-terms/rxvt-unicode)>=9.21

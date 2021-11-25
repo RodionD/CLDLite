@@ -1,0 +1,56 @@
+#Calculate format=raw path=~/
+#
+# Openbox shutdown dialog
+# This is example obshutdown rc file
+# Copy this file to ~/.obshutdown.rc and customise
+#
+
+[general]
+version =        0.1-rc1
+verbose =        false
+default_action = shutdown
+composite =      true
+theme =          faenza
+buttons =        cancel logout shutdown restart suspend hibernate
+
+[actions]
+logout =         openbox --exit
+shutdown =       dbus-send --system --print-reply --dest="org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Stop
+restart =        dbus-send --system --print-reply --dest="org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Restart
+lock = 
+switch =         dbus-send --system --print-reply --dest="org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.CloseSession
+suspend =        dbus-send --system --print-reply --dest="org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Suspend
+hibernate =      dbus-send --system --print-reply --dest="org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Hibernate
+custom = 
+
+[shortcuts]
+logout =         l
+shutdown =       s
+restart =        r
+lock = 
+switch = 
+suspend =        u
+hibernate =      h
+custom = 
+
+[labels]
+#?os_locale_language==ru#
+cancel =         Отмена
+logout =         Выход
+restart =        Перезагрузка
+shutdown =       Выключение
+lock =           Блокировка
+switch =         Смена пользователя
+suspend =        Сон
+hibernate =      Гибернация
+#os_locale_language#
+#?os_locale_language!=ru#
+cancel =         Cancel
+logout =         Exit
+restart =        Reboot
+shutdown =       Shutdown
+lock =           Lock
+switch =         Change user
+suspend =        Sleep
+hibernate =      Hibernate
+#os_locale_language#

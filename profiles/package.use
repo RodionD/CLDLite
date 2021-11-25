@@ -1,0 +1,2 @@
+kde-plasma/plasma-workspace -calendar
+dev-qt/qtsql -postgres sqlite

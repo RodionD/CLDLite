@@ -1,0 +1,1 @@
+# Calculate append=skip mergepkg(gtk+)!=&&ini(update.gtk+)!=off&&ini(ver.gtk+)==&&pkg(x11-libs/gtk+)>=2.24
