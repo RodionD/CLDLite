@@ -1,1 +1,1 @@
-# Calculate path=/var/calculate/templates name=portage
+# Calculate path=/var/calculate/templates name=portage update.ac_update_sync==on
