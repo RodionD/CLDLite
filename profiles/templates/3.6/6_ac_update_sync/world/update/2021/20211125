@@ -1,6 +1,6 @@
-# Calculate format=world name=world ini(overlay-CLDLite.world)<#-cut()-#
+# Calculate format=world name=world ini(overlay-calculate.world)<#-cut()-#
 
-#-ini(overlay-CLDLite.world,#-cut()-#)-#
+#-ini(overlay-calculate.world,#-cut()-#)-#
 
 !kde-apps/kmail
 !net-irc/konversation
