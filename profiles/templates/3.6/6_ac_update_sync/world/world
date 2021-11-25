@@ -1,4 +1,4 @@
-# Calculate update.ac_update_sync==on path=/var/calculate/templates format=world
+# Calculate update.ac_update_sync==on path=/var/calculate/templates format=world ac_install_merge==on
 
 !kde-apps/kmail
 !net-irc/konversation
