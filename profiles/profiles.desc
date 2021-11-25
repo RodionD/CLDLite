@@ -8,6 +8,6 @@
 
 
 # AMD64 Profiles
-amd64		CLDO/amd64					stable
+amd64		CLDLite/amd64					stable
 
 # vim: set ts=8
