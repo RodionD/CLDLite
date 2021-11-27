@@ -1,2 +1,6 @@
 kde-plasma/plasma-workspace -calendar
 dev-qt/qtsql -postgres sqlite
+kde-apps/dolphin -semantic-desktop
+kde-apps/gwenview -semantic-desktop
+kde-plasma/plasma-desktop -semantic-desktop
+kde-plasma/plasma-workspace -semantic-desktop
