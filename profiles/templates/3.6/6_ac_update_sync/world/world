@@ -64,3 +64,5 @@
 !kde-apps/libkleo
 !kde-frameworks/kcalendarcore
 !kde-apps/kleopatra
+!kde-frameworks/baloo
+!kde-apps/baloo-widgets
